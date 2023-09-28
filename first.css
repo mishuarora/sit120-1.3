@@ -1,0 +1,221 @@
+
+  
+  /* Style the title in the header */
+  .custom-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .custom-titlee {
+    text-align: center;
+    font-size: 16px;
+  }
+  /* Style the image container in the header */
+  .image-container {
+    text-align: center;
+  }
+  
+  
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  /* Style the navigation bar (navbar) */
+.custom-nav-item {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .custom-nav-item:hover {
+    color: #2E86AB; /* Change the color on hover */
+  }
+  
+  
+  .w3-row-padding img {
+    margin-bottom: 12px;
+  }
+  
+  .bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: white;
+    min-height: 100%;
+  }
+  
+  /* Style for the button */
+.custom-download-button {
+    background-color: #3498db; /* Button background color */
+    color: #ffffff; /* Button text color */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  /* Hover effect */
+  .custom-download-button:hover {
+    background-color: #2980b9; /* Darker background color on hover */
+  }
+  
+  
+  .container {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center-align the container itself */
+    text-align: left; /* Reset text alignment for inner content */
+  }
+
+ 
+ /* Style for the skill container */
+.custom-skill {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the skill name */
+  .custom-skill-name {
+    font-weight: bold;
+  }
+  
+  /* Style for the progress bar container */
+  .custom-progress-bar {
+    background-color: #f2f2f2; /* Background color of the progress bar container */
+    border-radius: 5px; /* Rounded corners */
+    height: 20px; /* Height of the progress bar container */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  /* Style for the progress bar itself */
+  .custom-progress {
+    background-color: #3498db; /* Progress bar color */
+    height: 100%; /* Full height of the progress bar container */
+    width: 70%; /* Initial width of the progress bar */
+    transition: width 0.5s ease; /* Smooth width transition */
+    text-align: center; /* Center the skill percentage text */
+    color: #ffffff; /* Text color */
+    line-height: 20px; /* Vertical alignment */
+  }
+  
+  /* Style for the skill percentage text */
+  .custom-skill-percent {
+    font-weight: bold;
+  }
+  .custom-progress-bar:hover .custom-progress {
+    background-color: #2980b9; /* Darker color on hover */
+    width: 100%; /* Full width on hover */
+  }
+  
+  
+  /* Style for the name, email, and subject input fields */
+.custom-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for the input fields on focus */
+  .custom-input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    outline: none;
+  }
+  
+  /* Style for the Message input field */
+  .custom-input[type="text"] {
+    height: 25px; /* Adjust the height as needed */
+  }
+  /* Style the "About Me" and "My Skills" sections */
+.custom-about-section h2,
+.custom-about-section h3 {
+  background-color: #a5e5ed;
+  color: #2E86AB;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.custom-section-title {
+    text-align: center;
+    font-size: 24px;
+    color: #2E86AB; /* Text color */
+    background-color: #a5e5ed; /* Background color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Me Section */
+  .custom-contact-info {
+    background-color: #a4c0d8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(162, 63, 63, 0.1);
+    margin-top: 20px;
+  }
+  
+  .custom-contact-info h2 {
+    background-color: #2E86AB;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 0;
+  }
+  
+  .custom-contact-info p {
+    margin: 10px 0;
+  }
+  
+  .custom-contact-info i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #2e2077;
+  }
+  
+  .custom-contact-info a {
+    text-decoration: none;
+    color: #462121;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .custom-contact-info a:hover {
+    text-decoration: underline;
+    color: #2E86AB;
+  }
+  
+  /* Style for the submit button */
+  .custom-submit-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the submit button */
+  .custom-submit-button:hover {
+    background-color: #2980b9; /* Darker color on hover */
+  }
+  .custom-powered-by {
+    text-align: center;
+    font-size: 16px;
+    color: #2E86AB; /* Text color */
+    background-color: #a5e5ed; /* Background color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-powered-by-link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+  }
+  

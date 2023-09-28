@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mishu Arora</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="first.css"> 
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+  <div class="container">
+
+<nav class="custom-sidebar" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="custom-close-button">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="custom-sidebar-content">
+    <a href="#" class="custom-sidebar-item" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="custom-sidebar-item" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="custom-sidebar-item" onclick="closeNav()">About</a>
+    <a href="#contact" class="custom-sidebar-item" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+
+<a href="#" class="custom-nav-item" v-on:click="closeNav()">Home</a>
+<router-link to="/portfolio" class="custom-nav-item" @click="closeNav()">Portfolio</router-link>
+<router-link to="/about" class="custom-nav-item" @click="closeNav()">About</router-link>
+<router-link to="/contact" class="custom-nav-item" @click="closeNav()">Contact</router-link>
+
+
+<router-view></router-view>
+  
+
+<div class="custom-main-content" style="margin:0%">
+
+ 
+  <span class="custom-menu-icon" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+ 
+  <header class="custom-header" style="padding: 128px 16px; text-align: left; background-color:white; color:black;">
+    <h1 class="custom-title"><b>Mishu Arora</b></h1>
+    <p class="custom-titlee">DATA ANALYST</p>
+    <div class="image-container">
+      <img src="images.png" alt="pp vector art">
+      <button class="custom-download-button">
+        <i class="fa fa-download"></i> My Resume
+      </button>
+    </div>
+  </header>
+  
+  
+  <div class="custom-portfolio-section" id="portfolio" style="text-align: left; background-color: white; color: black; padding: 30px;">
+    <h3 class="custom-section-title">My Portfolio</h3>
+    <hr class="custom-section-divider">
+  
+    
+  </div>
+  
+ 
+  <div class="custom-about-section" id="about">
+   
+    <h2>About Me</h2>
+    <hr class="custom-section-divider">
+    <p>I am a driven and motivated Data Analyst, deeply passionate about turning unprocessed data into meaningful and actionable insights. 
+        My expertise lies in statistical analysis, data visualization, and data manipulation, providing a solid foundation for my work. 
+        I have a proven history of extracting valuable insights that empower informed business decisions
+    </p>
+    <h3 class="custom-subsection-title">My Skills</h3>
+   
+    <div class="custom-skill">
+      <p class="custom-skill-name">Visual Analytics</p>
+      <div class="custom-progress-bar">
+        <div class="custom-progress" style="width: 99%;">
+          <span class="custom-skill-percent">99%</span></div>
+      </div>
+    <div class="custom-skill">
+      <p class="custom-skill-name">Interaction</p>
+      <div class="custom-progress-bar">
+        <div class="custom-progress" style="width: 79.5%;">
+          <span class="custom-skill-percent">79.5%</span></div>
+      </div>
+     <div class="custom-skill">
+      <p class="custom-skill-name">Problem Analyzing</p>
+      <div class="custom-progress-bar">
+        <div class="custom-progress" style="width: 69%;">
+          <span class="custom-skill-percent">69%</span></div>
+      </div>
+      <div class="custom-skill">
+      <p class="custom-skill-name">Analytical Thinking</p>
+      <div class="custom-progress-bar">
+        <div class="custom-progress" style="width: 80%;">
+          <span class="custom-skill-percent">80%</span></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="custom-contact-section" id="contact" style="margin-bottom:44px">
+    
+    <h2>Contact Me</h2>
+    <hr class="custom-section-divider">
+
+    <div class="custom-contact-info">
+      <p><i class="fa fa-map-marker fa-fw"></i>Address: 224,Azkaban Central,Melbourne, </p>
+      <p><i class="fa fa-phone fa-fw"></i> Phone: 0489098909</p>
+      <p><i class="fa fa-envelope fa-fw"> </i> Email: mishuarora@gmail.com</p>
+    </div>
+    
+    <p>Feel free to reach out and get in touch with me. You can contact me via the email address provided above. 
+        I'm always eager to connect and discuss potential opportunities, collaborations, or any inquiries you may have. </p>
+    <form action="/action_page.php" target="_blank" class="custom-contact-form">
+      <input class="custom-input" type="text" placeholder="Name" required name="Name">
+      <input class="custom-input" type="text" placeholder="Email" required name="Email">
+      <input class="custom-input" type="text" placeholder="Subject" required name="Subject">
+      <input class="custom-input" type="text" placeholder="Message" required name="Message">
+      <button class="custom-submit-button" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND Message
+      </button>
+    </form>
+  </div>  
+ 
+  </div>
+ 
+  <footer class="custom-footer" style="margin:-24px">
+    <i class="fa fa-facebook-official custom-social-icon"></i>
+    <i class="fa fa-linkedin custom-social-icon"></i>
+    <p class="custom-powered-by">Powered by<a href="https://www.hindustantimes.com/ht-img/img/2023/09/20/550x309/gege_akutami_1695225795670_1695225816461.jpg" target="_blank" class="custom-powered-by-link"> Mishu Arora</a></p>
+  </footer>
+ 
+</div>
+</div>
+<script src="vue.js"></script>
+<script src="vue-router.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
